@@ -44,7 +44,7 @@ function App() {
         return <div>Default</div>;
     }
   };
-  return <>{renderComp(page)}</>;
+  return <div className="h-100 w-100">{renderComp(page)}</div>;
 }
 
 export default App;
